@@ -30,10 +30,6 @@ img {
     width: auto;
 }
 
-li{
-    list-style-type: none;
-}
-
 a:hover {
     color: #cddc39;
 }
@@ -61,12 +57,20 @@ header nav{
     padding: 10px 0;
 }
 
+header li{
+    list-style-type: none;
+}
+
 header ul a{
     color: white;
     padding: 10px;
     font-weight: 800;
     width: 100%;
     text-align: center;
+}
+
+.page-actuel a{
+    color: #cddc39;
 }
 
 header a:active{
@@ -94,6 +98,23 @@ figcaption{
     font-size: 90%;
 }
 
+table{
+    border: #4caf50 solid 1px;
+}
+
+td{
+    padding: 4px 6px;
+    text-align: left;
+}
+
 figure img{
     width: 100%;
+}
+
+main ul li{
+    list-style-type: none;
+    background-image: url("../img/balle-golf.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 25px;
 }
