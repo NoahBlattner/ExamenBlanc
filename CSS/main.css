@@ -72,3 +72,28 @@ header ul a{
 header a:active{
     color: #cddc39;
 }
+
+/**********************
+MAIN
+**********************/
+
+main{
+    padding: 20px;
+}
+
+figure{
+    background-color: #c8e6c9;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+figcaption{
+    padding: 10px 0 5px;
+    color: white;
+    font-size: 90%;
+}
+
+figure img{
+    width: 100%;
+}
