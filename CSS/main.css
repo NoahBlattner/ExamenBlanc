@@ -61,6 +61,10 @@ header li{
     list-style-type: none;
 }
 
+header ul{
+    padding: 0;
+}
+
 header ul a{
     color: white;
     padding: 10px;
