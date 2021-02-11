@@ -38,3 +38,27 @@ a:hover {
 HEADER
 **********************/
 
+header{
+    padding-top: 20px;
+    background-color: #4caf50;
+    border-top: #388e3c solid 20px;
+}
+
+header a {
+    display: table;
+    margin: auto;
+}
+
+header h1 {
+    display: none;
+}
+
+header nav{
+    display: table;
+    margin: auto;
+}
+
+header ul{
+    list-style-type: none;
+    text-align: center;
+}
