@@ -88,6 +88,7 @@ main{
 td, th{
     padding: 4px 6px;
     text-align: left;
+    border: #c8e6c9 solid 1px;
 }
 
 thead, tfoot{
@@ -107,16 +108,16 @@ figcaption{
     font-size: 90%;
 }
 
-table{
-    border: #c8e6c9 solid 1px;
-}
-
 th{
     padding-bottom: 5px;
     font-size: 80%;
 }
 
 .cellule-prix{
+    text-align: right;
+}
+
+tfoot{
     text-align: right;
 }
 
@@ -129,5 +130,20 @@ main ul li{
     background-image: url("../img/balle-golf.png");
     background-repeat: no-repeat;
     background-position: left;
-    padding: 25px;
+    padding-left: 25px;
+}
+
+/**********************
+FOOTER
+**********************/
+
+footer{
+    height: 120px;
+    color: #727272;
+    text-align: center;
+    padding: 20px 20px 60px;
+    margin-top: 30px;
+    background-image: url("../img/paysage-practice-golf-club-bassecourt.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
