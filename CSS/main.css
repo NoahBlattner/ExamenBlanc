@@ -85,6 +85,15 @@ main{
     padding: 20px;
 }
 
+td, th{
+    padding: 4px 6px;
+    text-align: left;
+}
+
+thead, tfoot{
+    background-color: #c8e6c9;
+}
+
 figure{
     background-color: #c8e6c9;
     padding: 10px;
@@ -99,12 +108,16 @@ figcaption{
 }
 
 table{
-    border: #4caf50 solid 1px;
+    border: #c8e6c9 solid 1px;
 }
 
-td{
-    padding: 4px 6px;
-    text-align: left;
+th{
+    padding-bottom: 5px;
+    font-size: 80%;
+}
+
+.cellule-prix{
+    text-align: right;
 }
 
 figure img{
