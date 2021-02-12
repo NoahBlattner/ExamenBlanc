@@ -44,16 +44,17 @@ header{
     border-top: #388e3c solid 20px;
 }
 
-header a {
-    display: table;
-    margin: auto;
+header div{
+    text-align: center;
 }
 
-header h1 {
+header h1{
     display: none;
 }
 
 header nav{
+    margin: auto;
+    text-align: center;
     padding: 10px 0;
 }
 
@@ -79,6 +80,30 @@ header ul a{
 
 header a:active{
     color: #cddc39;
+}
+
+/************RESPONSIVE HEADER************/
+
+@media screen and (min-width: 660px){
+
+    header div{
+        display: inline-block;
+        text-align: left;
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    header nav{
+        float: right;
+        display: inline-block;
+        width: 75%;
+        text-align: right;
+    }
+
+    header li{
+        display: inline-block;
+    }
+
 }
 
 /**********************
