@@ -82,30 +82,6 @@ header a:active{
     color: #cddc39;
 }
 
-/************RESPONSIVE HEADER************/
-
-@media screen and (min-width: 660px){
-
-    header div{
-        display: inline-block;
-        text-align: left;
-        width: 20%;
-        margin-left: 5%;
-    }
-
-    header nav{
-        float: right;
-        display: inline-block;
-        width: 75%;
-        text-align: right;
-    }
-
-    header li{
-        display: inline-block;
-    }
-
-}
-
 /**********************
 MAIN
 **********************/
@@ -175,4 +151,42 @@ footer{
     background-image: url("../img/paysage-practice-golf-club-bassecourt.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+/**********************
+RESPONSIVE
+**********************/
+
+@media screen and (min-width: 660px){
+
+    header div{
+        display: inline-block;
+        text-align: left;
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    header nav{
+        float: right;
+        display: inline-block;
+        width: 75%;
+        text-align: right;
+    }
+
+    header li{
+        display: inline-block;
+    }
+
+    .pres-club{
+        vertical-align: top;
+        display: inline-block;
+        width: 55%;
+        margin-right: 5%;
+    }
+
+    figure{
+        display: inline-block;
+        width: 40%;
+    }
+
 }
