@@ -132,7 +132,7 @@ figure img{
 
 main ul li{
     list-style-type: none;
-    background-image: url("../img/balle-golf.png");
+    background-image: url("../../ExamABlancV2/img/img/balle-golf.png");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 25px;
@@ -148,7 +148,7 @@ footer{
     text-align: center;
     padding: 20px 20px 60px;
     margin-top: 30px;
-    background-image: url("../img/paysage-practice-golf-club-bassecourt.jpg");
+    background-image: url("../../ExamABlancV2/img/img/paysage-practice-golf-club-bassecourt.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
