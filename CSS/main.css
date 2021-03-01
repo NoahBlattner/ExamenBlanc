@@ -1,5 +1,5 @@
 /**********************
-MISE EN FORME GeNéRALE
+MISE EN FORME GéNéRALE
 **********************/
 
 * {
@@ -180,8 +180,7 @@ RESPONSIVE
     .pres-club{
         vertical-align: top;
         display: inline-block;
-        width: 55%;
-        margin-right: 5%;
+        width: 50%;
     }
 
     figure{
